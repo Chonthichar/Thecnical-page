@@ -1,0 +1,56 @@
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: lightsteelblue;
+    color: white;
+    overflow: hidden;
+    animation-name: backdiv;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+li {
+    float: right;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+@keyframes backdiv {
+ 50% {
+     background-color: coral;
+ }
+
+#nav.large_menu {
+    font-size: 12px;
+    background: linear-gradient(75deg, #737373, #ffb499);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+    width: 250px;
+}
+
+}
+header {
+    margin-top: 90px;
+    font-size: 90px;
+    font: bold; calc(.025 * (100vw)) 'Arial', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
